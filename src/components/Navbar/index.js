@@ -13,7 +13,7 @@ const Navbar = () => {
     <div>
       <nav>
         <img className="logo" src={Subtract} alt="" />
-        <ul>
+        <ol>
           <li>
             <a href="./">
               <img src={Dashboard} alt="" />
@@ -49,7 +49,7 @@ const Navbar = () => {
               <img src={Settings} alt="" />
             </a>
           </li>
-        </ul>
+        </ol>
       </nav>
     </div>
   );
