@@ -9,10 +9,20 @@ const MySpace = () => {
       <div className="myspace">
         <img className="space" src={myspace} alt="" />
 
-        <h5 style={{ display: "inline" }}>
+        <h5>
           The Space <strong>.</strong> Lekki, Lagos.
         </h5>
-        <img src={Toggle} alt="" />
+        <img
+          src={Toggle}
+          alt=""
+          style={{
+            position: "absolute",
+            left: "251px",
+            top: "55px",
+            width: "16px",
+            height: "16px",
+          }}
+        />
         <ul className="list">
           <li className="li1">Apartment</li>
           <li>Estate</li>
