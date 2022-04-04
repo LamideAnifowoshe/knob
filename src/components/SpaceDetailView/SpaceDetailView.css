@@ -1,5 +1,6 @@
 .thespace {
-  position: absolute;
+  display: flex;
+  justify-content: flex-end;
   width: 400px;
   height: 1467px;
   background: #f5f6f9;
@@ -7,9 +8,26 @@
 }
 
 .header {
-  position: absolute;
+  display: flex;
   width: 400px;
   height: 120px;
-  left: 0px;
-  top: 0px;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.the-space {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #5db86c;
+}
+
+.addy {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #143a4f;
+  padding-top: 8px;
 }
