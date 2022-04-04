@@ -1,6 +1,7 @@
 .thespace {
   display: flex;
-  justify-content: flex-end;
+  justify-items: flex-end;
+  flex-direction: column;
   width: 400px;
   height: 1467px;
   background: #f5f6f9;
@@ -11,8 +12,8 @@
   display: flex;
   width: 400px;
   height: 120px;
-  padding: 30px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .the-space {
@@ -30,4 +31,19 @@
   line-height: 19px;
   color: #143a4f;
   padding-top: 8px;
+}
+
+.view-details {
+  padding-top: 30px;
+  width: 340px;
+  height: 523px;
+  justify-content: center;
+}
+
+#details {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #5db86c;
 }
