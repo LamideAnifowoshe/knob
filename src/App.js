@@ -14,7 +14,7 @@ function App() {
     <div className="app">
       {isDesktopOrLaptop ? <Navbar /> : <NavbarMobile />}
       <MySpace />
-    {/*  <SpaceDetailView /> */}
+      <SpaceDetailView />
     </div>
   );
 }
