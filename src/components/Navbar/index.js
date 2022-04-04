@@ -10,48 +10,46 @@ import Subtract from "./Images/Subtract.png";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav>
-        <img className="logo" src={Subtract} alt="" />
-        <ol>
-          <li>
-            <a href="./">
-              <img src={Dashboard} alt="" />
-            </a>
-          </li>
+    <nav className="navbar-web">
+      <img className="logo" src={Subtract} alt="" />
+      <ol>
+        <li>
+          <a href="./">
+            <img src={Dashboard} alt="" />
+          </a>
+        </li>
 
-          <li>
-            <a href="./">
-              <img src={Home} alt="" />
-            </a>
-          </li>
+        <li>
+          <a href="./">
+            <img src={Home} alt="" />
+          </a>
+        </li>
 
-          <li>
-            <a href="./">
-              <img src={Saved} alt="" />
-            </a>
-          </li>
+        <li>
+          <a href="./">
+            <img src={Saved} alt="" />
+          </a>
+        </li>
 
-          <li>
-            <a href="./">
-              <img src={Payment} alt="" />
-            </a>
-          </li>
+        <li>
+          <a href="./">
+            <img src={Payment} alt="" />
+          </a>
+        </li>
 
-          <li>
-            <a href="./">
-              <img src={Comment} alt="" />
-            </a>
-          </li>
+        <li>
+          <a href="./">
+            <img src={Comment} alt="" />
+          </a>
+        </li>
 
-          <li>
-            <a href="./">
-              <img src={Settings} alt="" />
-            </a>
-          </li>
-        </ol>
-      </nav>
-    </div>
+        <li>
+          <a href="./">
+            <img src={Settings} alt="" />
+          </a>
+        </li>
+      </ol>
+    </nav>
   );
 };
 

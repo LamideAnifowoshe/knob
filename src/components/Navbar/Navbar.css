@@ -1,41 +1,44 @@
-@media (min-width: 1224px) {
-  nav {
-    position: static;
-    width: 10%;
-    height: 1024px;
-    left: 20px;
-    top: 20px;
-    border: 1px solid #000000;
-    background: #000000;
-    box-sizing: border-box;
-    float: left;
-  }
+.navbar-web {
+  width: 112px;
+  min-height: 100vh;
+  left: 20px;
+  top: 20px;
+  border: 1px solid #000000;
+  background: #000000;
+  box-sizing: border-box;
+  float: left;
+}
 
-  .logo {
-    position: relative;
-    width: 18.64px;
-    height: 39.84px;
-    left: calc(50% - 18.64px / 2 + 0.32px);
-    top: 38px;
-  }
+.logo {
+  position: relative;
+  width: 18.64px;
+  height: 39.84px;
+  left: calc(50% - 18.64px / 2 + 0.32px);
+  top: 38px;
+}
 
-  ol {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    list-style: none;
-    width: 36px;
-    height: 396px;
-    left: 38px;
-    top: 148px;
-  }
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  list-style: none;
+  width: 36px;
+  height: 396px;
+  left: 38px;
+  top: 148px;
+}
 
-  img {
-    width: 36px;
-    height: 36px;
-    left: calc(50% - 36px / 2);
-    padding-top: 36px;
+img {
+  width: 36px;
+  height: 36px;
+  left: calc(50% - 36px / 2);
+  padding-top: 36px;
+}
+
+@media (max-width: 1224px) {
+  .navbar-web {
+    display: none;
   }
 }
