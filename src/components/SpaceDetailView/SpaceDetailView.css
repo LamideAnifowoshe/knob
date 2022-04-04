@@ -6,6 +6,7 @@
   height: 1467px;
   background: #f5f6f9;
   box-shadow: rgba(154, 159, 191, 0.15);
+  margin-right: 30px;
 }
 
 .header {
@@ -53,7 +54,7 @@
   flex-direction: row;
   justify-content: space-between;
   height: 306px;
-  width: 268px;
+  width: 400px;
 }
 
 .status-questions p {
@@ -72,4 +73,5 @@
   line-height: 19px;
   color: #143a4f;
   padding-bottom: 32px;
+  text-align: right;
 }
