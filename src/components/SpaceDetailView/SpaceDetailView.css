@@ -121,4 +121,5 @@
 
 .gallery-image img {
   width: 160px;
+  border-radius: 8px;
 }
