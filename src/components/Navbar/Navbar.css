@@ -1,5 +1,5 @@
 .navbar-web {
-  width: 112px;
+  width: 15%;
   min-height: 100vh;
   left: 20px;
   top: 20px;
@@ -41,4 +41,9 @@ img {
   .navbar-web {
     display: none;
   }
+}
+
+.space-status {
+  dispaly: flex;
+  justify-content: space-between;
 }
