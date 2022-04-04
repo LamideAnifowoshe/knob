@@ -1,5 +1,15 @@
 import React from "react";
 import Edit from "./images/Edit.png";
+import Features1 from "./images/Features1.png";
+import Features2 from "./images/Features2.png";
+import Features3 from "./images/Features3.png";
+import Features4 from "./images/Features4.png";
+import Features5 from "./images/Features5.png";
+import Features6 from "./images/Features6.png";
+import Features7 from "./images/Features7.png";
+import Features8 from "./images/Features8.png";
+import Features9 from "./images/Features9.png";
+import myspace from "./images/myspace.png";
 import "./SpaceDetailView.css";
 
 const SpaceDetailView = () => {
@@ -53,13 +63,69 @@ const SpaceDetailView = () => {
         </div>
       </div>
 
-      <divc className="space-features">
+      <div className="space-features">
         <div>
           <h3 className="space-info" style={{ paddingTop: "40px" }}>
             Features
           </h3>
+          <div className="Feat">
+            <div className="features">
+              <h5>Amenities</h5>
+            </div>
+            <div className="services">
+              <ul>
+                <li>
+                  <img src={Features8} alt="" /> Parking Space
+                </li>
+                <li>
+                  <img src={Features1} alt="" /> Elevator
+                </li>
+                <li>
+                  <img src={Features9} alt="" /> Internet Access
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="Feat">
+            <div className="features">
+              <h5>Nearby Public Services</h5>
+            </div>
+            <div className="services">
+              <ul>
+                <li>
+                  <img src={Features2} alt="" /> Cinemas
+                </li>
+                <li>
+                  <img src={Features3} alt="" /> Shopping Malls
+                </li>
+                <li>
+                  <img src={Features4} alt="" /> SuperMarkets
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="Feat">
+            <div className="features">
+              <h5>Perks</h5>
+            </div>
+            <div className="services">
+              <ul>
+                <li>
+                  <img src={Features5} alt="" /> Good Ratings & Reviews
+                </li>
+                <li>
+                  <img src={Features6} alt="" /> Quiet Neighborhood
+                </li>
+                <li>
+                  <img src={Features7} alt="" /> Easy to Navigate
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </divc>
+      </div>
     </div>
   );
 };

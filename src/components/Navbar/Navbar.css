@@ -42,8 +42,3 @@ img {
     display: none;
   }
 }
-
-.space-status {
-  dispaly: flex;
-  justify-content: space-between;
-}

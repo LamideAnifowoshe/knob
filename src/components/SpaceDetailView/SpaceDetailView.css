@@ -75,3 +75,36 @@
   padding-bottom: 32px;
   text-align: right;
 }
+
+.features {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 150%;
+  color: #9a9fbf;
+}
+
+.services {
+  display: flex;
+  align-items: flex-start !important;
+}
+
+.services ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.services ul li {
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 11px;
+  color: #000000;
+  text-align: center;
+  padding-left: 4px;
+}
+
+.services ul li img {
+  width: 11px;
+  height: 11px;
+}
