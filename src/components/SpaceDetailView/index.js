@@ -126,6 +126,36 @@ const SpaceDetailView = () => {
           </div>
         </div>
       </div>
+
+      <div className="space-gallery">
+        <div>
+          <h3 className="space-info" style={{ paddingTop: "40px" }}>
+            Gallery
+          </h3>
+        </div>
+
+        <div className="gallery">
+          <div className="gallery-image">
+            <img src={myspace} style={{ height: "51px" }} alt="" />
+          </div>
+
+          <div className="gallery-image">
+            <img src={myspace} style={{ height: "94px" }} alt="" />
+          </div>
+
+          <div className="gallery-image">
+            <img src={myspace} style={{ height: "94px" }} alt="" />
+          </div>
+
+          <div className="gallery-image">
+            <img src={myspace} style={{ height: "112px" }} alt="" />
+          </div>
+
+          <div className="gallery-image">
+            <img src={myspace} style={{ height: "94px" }} alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
