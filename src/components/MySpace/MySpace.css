@@ -1,15 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .col-2 {
-  width: 90%;
+  width: 100%;
+  padding-left: 40px;
+  margin-top: 160px;
 }
 
 .myspace {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: "Manrope";
   font-style: normal;
   width: 279px;
-  height: 183px;
-  left: 152px;
-  top: 165.77px;
+  padding-top: -20px;
   background: #ffffff;
   border-radius: 12px;
 }
@@ -18,19 +26,16 @@
   border: 2px solid darkblue;
 }
 
-.space {
-  position: absolute;
-  top: -30px;
-  left: 3.5px;
-  border-radius: 8px 8px 4px 4px;
-  width: 271px;
-  height: 82px;
+.my-space-head {
+  display: flex;
+  flex-direction: column;
 }
 
-h5 {
-  position: absolute;
-  left: 12px;
-  top: 70px;
+.my-space-head .details {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  margin: 0;
 }
 
 strong {
@@ -38,17 +43,12 @@ strong {
   font-weight: 2500;
 }
 
-ul {
+.list ul {
   display: flex;
   color: #9a9fbf;
   font-weight: 600;
   font-size: 8px;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  position: absolute;
-  top: 100.77px;
-  left: 12px;
 }
 
 .list li {
@@ -59,12 +59,15 @@ ul {
   list-style: none;
 }
 
-h4 {
-  position: absolute;
+.carddetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.carddetail h4 {
   width: 152px;
   height: 19px;
-  left: 12px;
-  top: 132.77px;
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
