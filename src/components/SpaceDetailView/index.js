@@ -21,7 +21,7 @@ const SpaceDetailView = () => {
 
       <div className="view-details">
         <div>
-          <h3 id="details">Details</h3>
+          <h3 className="space-info">Details</h3>
         </div>
 
         <div className="space-status">
@@ -52,6 +52,14 @@ const SpaceDetailView = () => {
           </div>
         </div>
       </div>
+
+      <divc className="space-features">
+        <div>
+          <h3 className="space-info" style={{ paddingTop: "40px" }}>
+            Features
+          </h3>
+        </div>
+      </divc>
     </div>
   );
 };
