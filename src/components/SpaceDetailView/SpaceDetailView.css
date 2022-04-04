@@ -1,0 +1,15 @@
+.thespace {
+  position: absolute;
+  width: 400px;
+  height: 1467px;
+  background: #f5f6f9;
+  box-shadow: rgba(154, 159, 191, 0.15);
+}
+
+.header {
+  position: absolute;
+  width: 400px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+}
