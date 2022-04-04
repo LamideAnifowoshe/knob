@@ -58,7 +58,7 @@ strong {
 .carddetail {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  padding-top: 24px;
 }
 
 .carddetail h4 {
