@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar-web">
       <img className="logo" src={Subtract} alt="" />
-      <ol>
+      <ol className="navbar-list">
         <li>
           <a href="./">
             <img src={Dashboard} alt="" />
