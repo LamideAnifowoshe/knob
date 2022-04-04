@@ -47,3 +47,29 @@
   line-height: 25px;
   color: #5db86c;
 }
+
+.space-status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 306px;
+  width: 268px;
+}
+
+.status-questions p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9a9fbf;
+  padding-bottom: 32px;
+}
+
+.status-answers p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #143a4f;
+  padding-bottom: 32px;
+}

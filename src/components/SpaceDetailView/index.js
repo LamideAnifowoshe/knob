@@ -24,34 +24,31 @@ const SpaceDetailView = () => {
           <h3 id="details">Details</h3>
         </div>
 
-        <div classNmme="space-status">
-          <div>
-            <ul className="status-questions">
-              <li>Price</li>
-              <li>Frequency</li>
-              <li>Duration</li>
-              <li>Space Type</li>
-              <li>Bed(s)</li>
-              <li>Bath</li>
-              <li>Furnished</li>
-              <li>Ensuite</li>
-              <li>Estate</li>
-              <li>Status</li>
-            </ul>
+        <div className="space-status">
+          <div className="status-questions">
+            <p>Price</p>
+            <p>Frequency</p>
+            <p>Duration</p>
+            <p>Space Type</p>
+            <p>Bed(s)</p>
+            <p>Bath</p>
+            <p>Furnished</p>
+            <p>Ensuite</p>
+            <p>Estate</p>
+            <p>Status</p>
           </div>
-          <div>
-            <ul className="status-ansswers">
-              <li>N50,000.00</li>
-              <li>Monthly</li>
-              <li>12 Months</li>
-              <li>Apartment</li>
-              <li>2</li>
-              <li>2</li>
-              <li>Yes</li>
-              <li>Yes</li>
-              <li>Yes</li>
-              <li>Vacant</li>
-            </ul>
+
+          <div className="status-answers">
+            <p>N50,000.00</p>
+            <p>Monthly</p>
+            <p>12 Months</p>
+            <p>Apartment</p>
+            <p>2</p>
+            <p>2</p>
+            <p>Yes</p>
+            <p>Yes</p>
+            <p>Yes</p>
+            <p>Vacant</p>
           </div>
         </div>
       </div>
